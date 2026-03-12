@@ -64,4 +64,5 @@ def delete_todo(id):
       "deadline_at": "2026-02-27T18:00:00", 
       "created_at": "2026-02-20T14:00:00", 
       "updated_at": "2026-02-20T14:00:00" 
-  }), 204   
+  })
+

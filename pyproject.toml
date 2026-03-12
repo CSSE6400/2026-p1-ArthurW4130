@@ -1,16 +1,19 @@
-[project]
+[tool.poetry]
 name = "practical01"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "zaidul",email = "zaidul.alam@uq.edu.au"}
-]
+description = "Practical01 project"
+authors = ["jiatong <arthurw4130@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "flask (>=3.1.3,<4.0.0)"
+packages = [
+    { include = "practical01" }
 ]
 
+[tool.poetry.dependencies]
+python = ">=3.12"
+flask = ">=3.1.3,<4.0.0"
+
+[tool.poetry.dev-dependencies]
+# add dev dependencies here if needed, e.g. pytest = "^7.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
